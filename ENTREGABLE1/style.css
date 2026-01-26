@@ -120,6 +120,22 @@ section {
     }
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+    body{
+        font-size: 18px;
+    }
+    .maincv {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 24px;
+    }
+    .arrcv {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 24px;
+    }
+}
+
 @media print {
     body {
         background: rgb(242, 234, 234);
