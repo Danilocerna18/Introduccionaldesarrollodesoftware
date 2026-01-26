@@ -104,7 +104,21 @@ section {
     text-align: center; 
 }
 
-
+@media (max-width: 767px) {
+    body{
+        font-size: 16px;
+    }
+    .maincv {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .arrcv {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
 
 @media print {
     body {
