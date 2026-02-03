@@ -20,3 +20,18 @@
           `${saludo}, ${nombre} `;
       }
     }
+
+
+function escondertabla() {
+      const tabla = document.getElementById("miTabla");
+      const boton = document.getElementById("btnTabla");
+
+
+      if (tabla.style.display === "none") {
+        tabla.style.display = "table";
+        boton.innerText = "Ocultar tabla";
+      } else {
+        tabla.style.display = "none";
+        boton.innerText = "Mostrar tabla";
+      }
+    }
