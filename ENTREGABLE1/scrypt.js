@@ -69,3 +69,16 @@ buscador.addEventListener("keyup", () => {
     }
   }
 });
+
+const btnTema = document.getElementById("btnTema");
+
+btnTema.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+
+  if (document.body.classList.contains("dark")) {
+    btnTema.textContent = "Light mode";
+  } else {
+    btnTema.textContent = "Dark mode";
+  }
+});
+
