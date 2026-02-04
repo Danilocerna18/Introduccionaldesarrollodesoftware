@@ -36,6 +36,20 @@ function escondertabla() {
       }
     }
 
+function mostrarcontacto() {
+  const contacto = document.getElementById("bloqueContacto");
+  const boton = document.getElementById("btnContacto");
+
+  const estaOculto = window.getComputedStyle(contacto).display === "none";
+
+  if (estaOculto) {
+    contacto.style.display = "block";
+    boton.innerText = "Ocultar contacto";
+  } else {
+    contacto.style.display = "none";
+    boton.innerText = "Mostrar contacto";
+  }
+}
 
 
 
