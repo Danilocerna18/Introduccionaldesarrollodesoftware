@@ -52,4 +52,20 @@ function mostrarcontacto() {
 }
 
 
+const buscador = document.getElementById("buscador");
+const lista = document.getElementById("conocimiento");
+const items = lista.getElementsByTagName("li");
 
+buscador.addEventListener("keyup", () => {
+  const texto = buscador.value.toLowerCase();
+
+  for (let item of items) {
+    const contenido = item.textContent.toLowerCase();
+
+    if (contenido.includes(texto)) {
+      item.style.display = "list-item";
+    } else {
+      item.style.display = "none";
+    }
+  }
+});
