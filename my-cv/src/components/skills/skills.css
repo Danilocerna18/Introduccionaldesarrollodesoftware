@@ -1,0 +1,6 @@
+
+.skills { display:flex; flex-direction:column; gap:12px; }
+.skill { background: rgba(255,255,255,0.02); padding:10px; border-radius:8px; border:1px solid rgba(255,255,255,0.03); }
+.skill-title { display:flex; justify-content:space-between; margin-bottom:8px; font-weight:700; color:#dff3ff; }
+.skill-bar { height:12px; background:#0f1720; border-radius:8px; overflow:hidden; }
+.skill-fill { height:100%; width:0%; background: linear-gradient(90deg,#2b6cff,#1b9cff); transition: width 900ms ease; }

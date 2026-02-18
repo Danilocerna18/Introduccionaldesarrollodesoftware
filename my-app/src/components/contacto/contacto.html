@@ -1,0 +1,10 @@
+<button (click)="toggleContacto()">
+  {{mostrar ? 'Ocultar contacto' : 'Mostrar contacto'}}
+</button>
+
+<div *ngIf="mostrar">
+  <h2>Contáctame por medio de:</h2>
+  <a href="mailto:danilo.cerna@ufm.edu">Correo electrónico</a><br>
+  <a href="https://github.com/">GitHub</a><br>
+  <a href="https://www.linkedin.com/">LinkedIn</a>
+</div>

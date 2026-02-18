@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CV — Danilo Enrique Cerna Vanegas</title>
+
+  <link rel="stylesheet" href="prueba.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <div class="brand">Danilo Cerna</div>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#aboutme" class="nav-link">About Me</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#cursos" class="nav-link">Cursos</a></li>
+        <li><a href="#experiencia" class="nav-link">Experiencia</a></li>
+        <li><a href="#educacion" class="nav-link">Educación</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="btnTema" class="icon-btn" aria-pressed="false">Light mode</button>
+        <a class="download-link" href="cv_danilo.pdf" download="cv_danilo.pdf">Download CV</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN ONE-PAGE -->
+  <main id="page">
+
+    <!-- HOME -->
+    <section id="home" class="section">
+      <div class="home-wrap">
+        <div class="home-left">
+          <h1>Hola, mi nombre es<br><span>Danilo Enrique Cerna Vanegas</span></h1>
+          <p class="lead">Estudiante de Ciencias de la Computación — Aprendiz constante, orientado a resultados y trabajo en equipo.</p>
+
+          <div class="cta">
+            <a class="btn primary" href="cv_danilo.pdf" download="cv_danilo.pdf">Descargar CV</a>
+            <a class="btn ghost" href="https://www.instagram.com/dc_ev18?igsh=MW1nZmJ2dTZzZWF3cA==" target="_blank" rel="noopener">Follow Me</a>
+          </div>
+
+          <div class="socials">
+            <a href="mailto:danilocervan18@gmail.com" title="Correo">✉️</a>
+            <a href="https://github.com/" target="_blank" rel="noopener" title="GitHub">🐙</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener" title="LinkedIn">💼</a>
+          </div>
+
+          <div class="saludo">
+            <input id="nombre" type="text" placeholder="Ingresa tu nombre" />
+            <button class="btn small" id="btnSaludo">Saludar</button>
+            <p id="resultado" class="resultado" aria-live="polite"></p>
+          </div>
+        </div>
+
+        <div class="home-right">
+          <img src="fotodanilocurriculum.jpeg" alt="Foto Danilo" class="profile-photo">
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section id="aboutme" class="section">
+      <h2>About Me</h2>
+      <p>Estudiante de Ciencias de la Computación, actualmente cursando el segundo año de carrera. Me destaco por mi interés en aprendizaje continuo, responsabilidad y trabajo en equipo. Busco aportar valor en proyectos tecnológicos y crecer profesionalmente.</p>
+
+      <div class="two-col">
+        <div>
+          <h3>Idiomas</h3>
+          <ul>
+            <li>Inglés (alto)</li>
+            <li>Español (alto)</li>
+            <li>Francés (básico)</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Conocimientos</h3>
+          <div class="search-row">
+            <input id="buscador" type="text" placeholder="Buscar conocimiento" />
+            <button id="clearSearch" class="icon-btn">✖</button>
+          </div>
+          <ul id="conocimiento">
+            <li>HTML (intermedio)</li>
+            <li>Python (alto)</li>
+            <li>Circuitos (alto)</li>
+            <li>Infraestructura (intermedio)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">
+          <div class="skill-title"><span>Python</span><span>90%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-title"><span>HTML / CSS</span><span>75%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="75%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-title"><span>Infraestructura</span><span>60%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="60%"></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-title"><span>Circuitos</span><span>85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURSOS -->
+    <section id="cursos" class="section">
+      <h2>Cursos Ganados</h2>
+      <ol>
+        <li>Global Management and Entrepreneurship 1</li>
+        <li>User Experience</li>
+        <li>Introducción a la Matemática</li>
+        <li>Programación Digital</li>
+        <li>Programación 1</li>
+        <li>Matemáticas 101</li>
+        <li>Economía 1</li>
+        <li>Razonamiento Crítico</li>
+        <li>Evolution of Computing</li>
+        <li>Liderazgo</li>
+        <li>Asesoría Lingüística</li>
+        <li>Programación de Dispositivos Electrónicos</li>
+        <li>Economía 2</li>
+        <li>Global Management and Entrepreneurship 2</li>
+        <li>Matemática Discreta Aplicada</li>
+        <li>Cálculo Diferencial</li>
+        <li>Programación 2</li>
+        <li>Introducción al Derecho</li>
+        <li>Accounting-Based Decision Making</li>
+      </ol>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section id="experiencia" class="section">
+      <h2>Experiencia Laboral</h2>
+      <div class="table-actions">
+        <button id="btnTabla" class="btn small">Ocultar tabla</button>
+      </div>
+
+      <div class="table-wrap">
+        <table id="miTabla" class="table">
+          <thead>
+            <tr><th>Periodo</th><th>Empresa</th><th>Puesto</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>2022-2023</td><td>Restaurante Las Pérgolas</td><td>Mesero</td></tr>
+            <tr><td>2024-2025</td><td>Restaurante Las Pérgolas</td><td>Supervisor</td></tr>
+            <tr><td>2024</td><td>Liceo Mixto San Mateo</td><td>Auxiliar de catedrático</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- EDUCACION -->
+    <section id="educacion" class="section">
+      <h2>Educación</h2>
+      <table class="table">
+        <thead><tr><th>Año</th><th>Institución</th><th>Título</th></tr></thead>
+        <tbody>
+          <tr><td>2025</td><td>Universidad Francisco Marroquín</td><td>Título de Liderazgo</td></tr>
+          <tr><td>2024</td><td>Liceo Mixto San Mateo</td><td>Bachiller en Ciencias de la Computación</td></tr>
+          <tr><td>2022</td><td>Liceo Mixto San Mateo</td><td>Título de Nivel Básico</td></tr>
+          <tr><td>2019</td><td>Liceo Mixto San Mateo</td><td>Título de Nivel Primaria</td></tr>
+          <tr><td>2024</td><td>Olimpiada Nacional de las Ciencias</td><td>Título de Participación</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+
+      <div id="bloqueContacto" class="contact-card">
+        <p><strong>Email:</strong> <a href="mailto:danilocervan18@gmail.com">danilocervan18@gmail.com</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/" target="_blank" rel="noopener">github.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/" target="_blank" rel="noopener">linkedin.com</a></p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/dc_ev18?igsh=MW1nZmJ2dTZzZWF3cA==" target="_blank" rel="noopener">dc_ev18</a></p>
+
+        <div class="contact-actions">
+          <a class="btn" href="cv_danilo.pdf" download="cv_danilo.pdf">Descargar CV</a>
+        </div>
+      </div>
+
+      <!-- Botón fuera del bloque para que no desaparezca -->
+      <div style="margin-top:12px;">
+        <button id="btnContacto" class="btn small">Ocultar contacto</button>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="scrypt.js"></script>
+</body>
+</html>
