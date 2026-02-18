@@ -1,0 +1,6 @@
+
+.section { padding: 48px 16px; max-width:1100px; margin: 0 auto; }
+.two-col { display:flex; gap:24px; flex-wrap:wrap; }
+.two-col > div { flex:1 1 300px; }
+.search-row { display:flex; gap:8px; align-items:center; margin-bottom:8px; }
+#conocimiento { padding-left:18px; }
