@@ -1,0 +1,29 @@
+<section>
+  <button (click)="toggleTabla()">
+    {{mostrarTabla ? 'Ocultar tabla' : 'Mostrar tabla'}}
+  </button>
+
+  <h2>Experiencia</h2>
+
+  <table *ngIf="mostrarTabla">
+    <thead>
+      <tr>
+        <th>Periodo</th>
+        <th>Empresa</th>
+        <th>Puesto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2022-2023</td>
+        <td>Restaurante las pergolas</td>
+        <td>Mesero</td>
+      </tr>
+      <tr>
+        <td>2024-2025</td>
+        <td>Supervisor</td>
+        <td>Restaurante las pergolas</td>
+      </tr>
+    </tbody>
+  </table>
+</section>

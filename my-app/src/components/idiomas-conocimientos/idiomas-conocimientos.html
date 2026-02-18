@@ -1,0 +1,17 @@
+<h2>Dominio en Idiomas</h2>
+<ul>
+  <li>Inglés (alto)</li>
+  <li>Español (alto)</li>
+  <li>Francés (básico)</li>
+</ul>
+
+<h2>Conocimientos de CS</h2>
+<input type="text" [(ngModel)]="buscador" placeholder="Buscar conocimiento">
+
+<ul>
+  <li *ngFor="let c of conocimientos">
+    <span *ngIf="c.toLowerCase().includes(buscador.toLowerCase())">
+      {{c}}
+    </span>
+  </li>
+</ul>
