@@ -1,3 +1,4 @@
+/*
 import { Component } from '@angular/core';
 
 @Component({
@@ -10,3 +11,15 @@ import { Component } from '@angular/core';
 export class EducacionComponent {
 
 }
+*/
+
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+@Component({
+  selector: 'app-educacion',
+  standalone: true,
+  imports: [CommonModule],
+  templateUrl: './educacion.html'
+})
+export class EducacionComponent {}

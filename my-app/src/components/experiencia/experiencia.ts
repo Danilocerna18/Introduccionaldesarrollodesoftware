@@ -1,3 +1,4 @@
+/*
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -16,3 +17,15 @@ export class ExperienciaComponent {
     this.mostrarTabla = !this.mostrarTabla;
   }
 }
+*/
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
+
+@Component({
+  selector: 'app-experiencia',
+  standalone: true,
+  imports: [CommonModule, RouterModule],
+  templateUrl: './experiencia.html'
+})
+export class ExperienciaComponent {}
