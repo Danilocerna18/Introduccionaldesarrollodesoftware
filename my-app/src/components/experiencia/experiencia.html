@@ -1,11 +1,8 @@
 <section>
-  <button (click)="toggleTabla()">
-    {{mostrarTabla ? 'Ocultar tabla' : 'Mostrar tabla'}}
-  </button>
 
   <h2>Experiencia</h2>
 
-  <table *ngIf="mostrarTabla">
+  <table>
                 <thead>
                   <tr>
                     <th>Periodo</th>  
@@ -32,3 +29,13 @@
                 </tbody>
   </table>
 </section>
+
+
+<h2>Experiencia</h2>
+
+<a routerLink="jobs">Trabajos</a> |
+<a routerLink="studies">Estudios</a>
+
+<hr>
+
+<router-outlet></router-outlet>
