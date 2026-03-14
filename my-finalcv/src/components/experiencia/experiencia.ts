@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
+import { RouterOutlet, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-experiencia',
-  imports: [],
+  standalone: true,
+  imports: [RouterOutlet, RouterLink],
   templateUrl: './experiencia.html',
-  styleUrl: './experiencia.css',
+  styleUrl: './experiencia.css'
 })
-export class Experiencia {
-
-}
+export class Experiencia {}
