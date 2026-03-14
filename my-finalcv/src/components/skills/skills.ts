@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-import { NgFor, UpperCasePipe } from '@angular/common';
+import { NgFor } from '@angular/common';
 import { DataService } from '../../app/data';
+import { CapitalizePipe } from '../../app/pipes/capitalize-pipe';
 
 @Component({
   selector: 'app-skills',
   standalone: true,
-  imports: [NgFor, UpperCasePipe],
+  imports: [NgFor, CapitalizePipe],
   templateUrl: './skills.html',
   styleUrl: './skills.css'
 })
