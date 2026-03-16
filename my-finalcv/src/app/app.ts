@@ -8,10 +8,10 @@ import { Educacion } from '../components/educacion/educacion';
 import { Experiencia } from '../components/experiencia/experiencia';
 import { Home } from '../components/home/home';
 import { Skills } from '../components/skills/skills';
-
+import { Proyectos } from '../components/proyectos/proyectos';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, Aboutme, Contact, Cursos, Educacion, Experiencia, Home, Skills],
+  imports: [RouterOutlet, Header, Aboutme, Contact, Cursos, Educacion, Experiencia, Home, Skills,Proyectos],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
