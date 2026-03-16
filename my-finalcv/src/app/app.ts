@@ -9,9 +9,11 @@ import { Experiencia } from '../components/experiencia/experiencia';
 import { Home } from '../components/home/home';
 import { Skills } from '../components/skills/skills';
 import { Proyectos } from '../components/proyectos/proyectos';
+import { Personajes } from '../components/personajes/personajes';
+
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, Aboutme, Contact, Cursos, Educacion, Experiencia, Home, Skills,Proyectos],
+  imports: [RouterOutlet, Header, Aboutme, Contact, Cursos, Educacion, Experiencia, Home, Skills,Proyectos, Personajes],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
